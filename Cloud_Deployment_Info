@@ -1,0 +1,4 @@
+DefaultConnection: server=35.240.8.129;database=movieapi;uid=foretiger;password=foretiger
+Cloud Endpoint: https://apmovieapi-242215.appspot.com
+Cloud Endpoint theories: https://apmovieapi-242215.appspot.com/api/v1/theories
+Cloud Endpoint comments: https://apmovieapi-242215.appspot.com/api/v1/comments

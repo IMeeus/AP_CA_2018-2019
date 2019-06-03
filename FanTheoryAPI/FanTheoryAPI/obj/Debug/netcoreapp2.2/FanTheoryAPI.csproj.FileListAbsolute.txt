@@ -13,3 +13,18 @@ C:\Users\alexa\source\repos\FanTheoryAPI\FanTheoryAPI\bin\Debug\netcoreapp2.2\Fa
 C:\Users\alexa\source\repos\FanTheoryAPI\FanTheoryAPI\obj\Debug\netcoreapp2.2\FanTheoryAPI.dll
 C:\Users\alexa\source\repos\FanTheoryAPI\FanTheoryAPI\obj\Debug\netcoreapp2.2\FanTheoryAPI.pdb
 C:\Users\alexa\source\repos\FanTheoryAPI\FanTheoryAPI\bin\Debug\netcoreapp2.2\app.yaml
+C:\Users\alexa\Documents\3 - Projects\AP\GitHub\AP_CA_2018-2019\FanTheoryAPI\FanTheoryAPI\bin\Debug\netcoreapp2.2\app.yaml
+C:\Users\alexa\Documents\3 - Projects\AP\GitHub\AP_CA_2018-2019\FanTheoryAPI\FanTheoryAPI\bin\Debug\netcoreapp2.2\FanTheoryAPI.deps.json
+C:\Users\alexa\Documents\3 - Projects\AP\GitHub\AP_CA_2018-2019\FanTheoryAPI\FanTheoryAPI\bin\Debug\netcoreapp2.2\FanTheoryAPI.runtimeconfig.json
+C:\Users\alexa\Documents\3 - Projects\AP\GitHub\AP_CA_2018-2019\FanTheoryAPI\FanTheoryAPI\bin\Debug\netcoreapp2.2\FanTheoryAPI.runtimeconfig.dev.json
+C:\Users\alexa\Documents\3 - Projects\AP\GitHub\AP_CA_2018-2019\FanTheoryAPI\FanTheoryAPI\bin\Debug\netcoreapp2.2\FanTheoryAPI.dll
+C:\Users\alexa\Documents\3 - Projects\AP\GitHub\AP_CA_2018-2019\FanTheoryAPI\FanTheoryAPI\bin\Debug\netcoreapp2.2\FanTheoryAPI.pdb
+C:\Users\alexa\Documents\3 - Projects\AP\GitHub\AP_CA_2018-2019\FanTheoryAPI\FanTheoryAPI\obj\Debug\netcoreapp2.2\FanTheoryAPI.csprojAssemblyReference.cache
+C:\Users\alexa\Documents\3 - Projects\AP\GitHub\AP_CA_2018-2019\FanTheoryAPI\FanTheoryAPI\obj\Debug\netcoreapp2.2\FanTheoryAPI.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Documents\3 - Projects\AP\GitHub\AP_CA_2018-2019\FanTheoryAPI\FanTheoryAPI\obj\Debug\netcoreapp2.2\FanTheoryAPI.RazorAssemblyInfo.cache
+C:\Users\alexa\Documents\3 - Projects\AP\GitHub\AP_CA_2018-2019\FanTheoryAPI\FanTheoryAPI\obj\Debug\netcoreapp2.2\FanTheoryAPI.RazorAssemblyInfo.cs
+C:\Users\alexa\Documents\3 - Projects\AP\GitHub\AP_CA_2018-2019\FanTheoryAPI\FanTheoryAPI\obj\Debug\netcoreapp2.2\FanTheoryAPI.AssemblyInfoInputs.cache
+C:\Users\alexa\Documents\3 - Projects\AP\GitHub\AP_CA_2018-2019\FanTheoryAPI\FanTheoryAPI\obj\Debug\netcoreapp2.2\FanTheoryAPI.AssemblyInfo.cs
+C:\Users\alexa\Documents\3 - Projects\AP\GitHub\AP_CA_2018-2019\FanTheoryAPI\FanTheoryAPI\obj\Debug\netcoreapp2.2\FanTheoryAPI.RazorTargetAssemblyInfo.cache
+C:\Users\alexa\Documents\3 - Projects\AP\GitHub\AP_CA_2018-2019\FanTheoryAPI\FanTheoryAPI\obj\Debug\netcoreapp2.2\FanTheoryAPI.dll
+C:\Users\alexa\Documents\3 - Projects\AP\GitHub\AP_CA_2018-2019\FanTheoryAPI\FanTheoryAPI\obj\Debug\netcoreapp2.2\FanTheoryAPI.pdb

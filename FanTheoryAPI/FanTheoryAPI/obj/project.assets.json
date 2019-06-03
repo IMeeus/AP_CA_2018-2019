@@ -13051,11 +13051,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alexa\\source\\repos\\FanTheoryAPI\\FanTheoryAPI\\FanTheoryAPI.csproj",
+      "projectUniqueName": "C:\\Users\\alexa\\Documents\\3 - Projects\\AP\\GitHub\\AP_CA_2018-2019\\FanTheoryAPI\\FanTheoryAPI\\FanTheoryAPI.csproj",
       "projectName": "FanTheoryAPI",
-      "projectPath": "C:\\Users\\alexa\\source\\repos\\FanTheoryAPI\\FanTheoryAPI\\FanTheoryAPI.csproj",
+      "projectPath": "C:\\Users\\alexa\\Documents\\3 - Projects\\AP\\GitHub\\AP_CA_2018-2019\\FanTheoryAPI\\FanTheoryAPI\\FanTheoryAPI.csproj",
       "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexa\\source\\repos\\FanTheoryAPI\\FanTheoryAPI\\obj\\",
+      "outputPath": "C:\\Users\\alexa\\Documents\\3 - Projects\\AP\\GitHub\\AP_CA_2018-2019\\FanTheoryAPI\\FanTheoryAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

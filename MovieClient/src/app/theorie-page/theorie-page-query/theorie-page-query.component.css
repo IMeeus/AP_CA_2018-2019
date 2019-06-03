@@ -1,0 +1,8 @@
+.container {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 1px 1px 1px;
+    height: 100vw;
+    padding-left: 10px;
+    background-color: #F4F4F4;
+}

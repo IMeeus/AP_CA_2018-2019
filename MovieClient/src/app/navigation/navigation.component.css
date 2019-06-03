@@ -1,0 +1,12 @@
+.ui-toolbar-group-left {
+    line-height: 30px;
+}
+
+.ui-toolbar-group-left > * {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+#navSpan {
+    font-size: 2em;
+}

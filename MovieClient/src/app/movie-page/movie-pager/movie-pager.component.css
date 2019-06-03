@@ -1,0 +1,9 @@
+.ui-toolbar {
+    line-height: 30px;
+    text-align: center;
+}
+
+.ui-toolbar > * {
+    margin-right: 10px;
+    vertical-align: middle;
+}

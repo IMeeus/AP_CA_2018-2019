@@ -1,0 +1,11 @@
+<div class="container">
+  <h2>Search by:</h2>
+  <div>
+      <p-radioButton name="searchMode" value="title" label="Title" [(ngModel)]="SearchMode"></p-radioButton>
+      <br>
+      <p-radioButton name="searchMode" value="imdbId" label="ImdbId" [(ngModel)]="SearchMode"></p-radioButton>
+  </div>
+  <br>
+  <input *ngIf="SearchMode == 'title'"type="text" pInputText [(ngModel)]="Title" placeholder="Title" />
+  <input *ngIf="SearchMode == 'imdbId'"type="text" pInputText [(ngModel)]="ImdbId" placeholder="ImdbId" />
+</div>

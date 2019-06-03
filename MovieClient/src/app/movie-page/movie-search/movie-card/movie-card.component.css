@@ -1,0 +1,12 @@
+.container {
+    padding: 20px 10px;
+    width: 260px;
+}
+
+.container:hover {
+    padding: 0px;
+}
+
+.card {
+    height: 600px;
+}

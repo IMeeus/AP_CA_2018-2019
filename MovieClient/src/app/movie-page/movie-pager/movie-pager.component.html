@@ -1,0 +1,9 @@
+<div class="ui-toolbar">
+  <div class="ui-toolbar-group-left">
+    <button pButton type="button" icon="pi pi-arrow-left" (click)="PrevPage()" [disabled]="ButtonLeftDisabled"></button>
+  </div>
+  <span>Page {{Page}}</span>
+  <div class="ui-toolbar-group-right">
+    <button pButton type="button" icon="pi pi-arrow-right" (click)="NextPage()" [disabled]="ButtonRightDisabled"></button>
+  </div>
+</div>

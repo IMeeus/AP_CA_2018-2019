@@ -1,0 +1,14 @@
+<app-navigation></app-navigation>
+
+<div class="ui-g" *ngIf="Movie">
+  <div class="ui-g-12 ui-md-12 nopad">
+    <app-theorie-page-header></app-theorie-page-header>
+  </div>
+  <div class="ui-g-12 ui-md-2 nopad">
+    <app-theorie-page-query></app-theorie-page-query>
+  </div>
+  <div class="ui-g-12 ui-md-10 nopad">
+    <app-theorie-page-results *ngIf="ResultsPageOpen"></app-theorie-page-results>
+    <app-theorie-creator *ngIf="CreatorPageOpen"></app-theorie-creator>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+<div class="container">
+    <div *ngFor="let movie of MovieResults; let i = index">
+        <div *ngIf="i % 5 == 0" class="p-grid">
+            <div *ngIf="i + 0 < MovieResults.length" class="p-col">
+                <app-movie-card [movie]="MovieResults[i]"></app-movie-card>
+            </div>
+            <div *ngIf="i + 1 < MovieResults.length" class="p-col">
+                <app-movie-card [movie]="MovieResults[i+1]"></app-movie-card>
+            </div>
+            <div *ngIf="i + 2 < MovieResults.length" class="p-col">
+                <app-movie-card [movie]="MovieResults[i+2]"></app-movie-card>
+            </div>
+            <div *ngIf="i + 3 < MovieResults.length" class="p-col">
+                <app-movie-card [movie]="MovieResults[i+3]"></app-movie-card>
+            </div>
+            <div *ngIf="i + 4 < MovieResults.length" class="p-col">
+                <app-movie-card [movie]="MovieResults[i+4]"></app-movie-card>
+            </div>
+        </div>
+    </div>
+</div>

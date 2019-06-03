@@ -1,0 +1,11 @@
+<p-toolbar>
+  <div class="ui-toolbar-group-left">
+    <button pButton type="button" label="Movies" icon="pi pi-video" [routerLink]="['/movies']"
+      [routerLinkActive]="['ui-button-success']"></button>
+    <button pButton type="button" label="Theories" icon="pi pi-users" [routerLink]="['/theories']"
+      [routerLinkActive]="['ui-button-success']"></button>
+  </div>
+  <div class="ui-toolbar-group-right">
+      <button pButton type="button" label="Sign Out" (click)="SignOut()"></button>
+  </div>
+</p-toolbar>

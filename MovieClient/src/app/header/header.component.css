@@ -1,0 +1,9 @@
+.container {
+    border: 1px solid black;
+    text-align: center;
+    background: #303F9F;
+}
+
+h1 {
+    color: white;
+}

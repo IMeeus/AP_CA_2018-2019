@@ -1,0 +1,19 @@
+<div class="container">
+  <button pButton type="button" label="Add theory" icon="pi pi-plus" (click)="ShowCreator()"></button>
+  <br><br>
+  <div *ngIf="Theories.length > 0; else notheories">
+    <div *ngFor="let theorie of Theories">
+      <p-panel [toggleable]="true" [collapsed]="true">
+        <p-header>
+          <strong style="font-size: 2em">{{theorie.title}}</strong>
+          <em style="color: gray"> Posted by {{theorie.writer}}</em>
+        </p-header>
+        {{theorie.description}}
+      </p-panel>
+      <br>
+    </div>
+  </div>
+  <ng-template #notheories>
+    No theories have been made for this movie.
+  </ng-template>
+</div>

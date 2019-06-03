@@ -49,12 +49,6 @@ namespace FanTheoryAPI.Controllers
                         if (dir == "desc")
                             query = query.OrderByDescending(t => t.Title);
                         break;
-                    case "date":
-                        if (dir == "asc")
-                            query = query.OrderBy(t => t.Created);
-                        if (dir == "desc")
-                            query = query.OrderByDescending(t => t.Created);
-                        break;
                 }
             }
 
@@ -100,8 +94,6 @@ namespace FanTheoryAPI.Controllers
                 return BadRequest("title is not allowed to be null or empty");
             if (string.IsNullOrWhiteSpace(newTheory.Writer))
                 newTheory.Writer = "anonymous";
-            if (newTheory.Created == null)
-                newTheory.Created = DateTime.Now;
 
             context.Theories.Add(newTheory);
             context.SaveChanges();
@@ -146,7 +138,6 @@ namespace FanTheoryAPI.Controllers
             oTheory.Writer = uTheory.Writer;
             oTheory.Title = uTheory.Title;
             oTheory.Description = uTheory.Description;
-            oTheory.Created = uTheory.Created;
             oTheory.Comments = uTheory.Comments;
 
             context.SaveChanges();

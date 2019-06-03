@@ -49,7 +49,8 @@ export class TheoriePageService {
           imdbID: theorie.imdbID,
           title: theorie.title,
           description: theorie.description,
-          writer: theorie.writer
+          writer: theorie.writer,
+          created: theorie.created
         });
       }
     }, (error) => {

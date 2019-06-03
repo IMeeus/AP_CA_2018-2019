@@ -1,0 +1,16 @@
+Used Firebase for Authentication.
+
+client-id:
+1031038328196-1v7hej1n9nm5p2ccih9vop4s1b9i2k4i.apps.googleusercontent.com
+secret:
+gk8eHD-sZZhFB6qVxuyQYweT
+
+var config = {
+    apiKey: "AIzaSyB1Zv2y-vW1BurC8ESCGXtkyG6c28VkzlM",
+    authDomain: "apmovieapi-242215.firebaseapp.com",
+    databaseURL: "https://apmovieapi-242215.firebaseio.com",
+    projectId: "apmovieapi-242215",
+    storageBucket: "apmovieapi-242215.appspot.com",
+    messagingSenderId: "846622984300",
+    appId: "1:846622984300:web:334692883ffba22e"
+};

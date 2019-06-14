@@ -51,8 +51,7 @@ export class TheorieCreatorComponent implements OnInit {
       imdbID: this.theoriePageSvc.movie.imdbID,
       title: this.title,
       description: this.description,
-      writer: this.user.displayName,
-      created: Date.now()
+      writer: this.user.displayName
     };
     
     this.theorieSvc.CreateTheorie(newTheorie).subscribe((results) => {

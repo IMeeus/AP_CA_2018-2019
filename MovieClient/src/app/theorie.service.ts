@@ -26,5 +26,4 @@ export interface ITheory {
   writer: string;
   title: string;
   description: string;
-  created: Date;
 }

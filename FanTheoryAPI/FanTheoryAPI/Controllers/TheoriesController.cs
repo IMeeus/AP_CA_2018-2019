@@ -20,7 +20,7 @@ namespace FanTheoryAPI.Controllers
         }
 
         [HttpGet]
-        public ActionResult<List<Theory>> GetAllTheories(string imdb, string writer, string title, string sort, int? page, int length = 50, string dir = "asc")
+        public ActionResult<List<Theory>> GetAllTheories(string imdb, string writer, string title, string sort, int? page, int length = 10, string dir = "asc")
         {
             IQueryable<Theory> query = context.Theories;
 

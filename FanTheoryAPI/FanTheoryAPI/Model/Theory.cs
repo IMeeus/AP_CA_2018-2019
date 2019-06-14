@@ -9,7 +9,6 @@ namespace FanTheoryAPI.Model
 {
     public class Theory
     {
-        [JsonIgnore]
         public int Id { get; set; }
         [Required]
         public string ImdbID { get; set; }

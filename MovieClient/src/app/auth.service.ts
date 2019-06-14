@@ -20,12 +20,12 @@ export class AuthService {
   async GoogleSignIn() {
     const provider = new auth.GoogleAuthProvider();
     await this.afAuth.auth.signInWithPopup(provider);
-    return this.router.navigate(['movies'])
+    return this.router.navigate(['/movies'])
   }
 
   async SignOut() {
     await this.afAuth.auth.signOut();
-    return this.router.navigate(['login']);
+    return this.router.navigate(['/login']);
   }
 }
 

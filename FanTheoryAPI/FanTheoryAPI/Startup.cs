@@ -29,9 +29,11 @@ namespace FanTheoryAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<LibraryContext>(
-                options => options.UseMySql(
-                    Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<LibraryContext>(options =>
+            {
+                options.UseMySql(Configuration.GetConnectionString("CloudConnection"));
+                //options.UseSqlServer(Configuration.GetConnectionString("LocalConnection"));
+            });
 
             services.AddCors(options =>
             {
